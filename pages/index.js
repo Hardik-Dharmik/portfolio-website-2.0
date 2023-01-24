@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <Navbar />
+      <Main />
     </div>
   );
 }

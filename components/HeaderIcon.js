@@ -1,9 +1,11 @@
 import React from "react";
 
-function HeaderIcon({ Icon }) {
+function HeaderIcon({ Icon, href }) {
   return (
     <div className="hover:text-teal cursor-pointer">
-      <Icon fontSize="medium" />
+      <a href={href} target="_blank">
+        <Icon fontSize="medium" />
+      </a>
     </div>
   );
 }

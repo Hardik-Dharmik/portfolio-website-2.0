@@ -13,12 +13,10 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  console.log(isOpen);
-
   return (
-    <div className="container mx-auto bg-bgDark text-lightslate text-sm font-mono font-light">
+    <div className="container mx-auto bg-bgDark text-lightslate text-sm font-mono font-light pt-4">
       {/* Mobile Menu  */}
-      <div className="inline-block sm:hidden p-2 cursor-pointer hover:bg-gray-300 rounded-full">
+      <div className="inline-block sm:hidden p-2 cursor-pointer">
         {isOpen ? (
           <CloseIcon onClick={handleToggle} />
         ) : (
@@ -36,6 +34,22 @@ function Navbar() {
         <a href="">Education</a>
         <a href="">Projects</a>
         <a href="">Experience</a>
+
+        <div className="flex space-x-7">
+          <HeaderIcon
+            Icon={LinkedInIcon}
+            href="https://www.linkedin.com/in/hardik-dharmik-034796215/"
+          />
+          <HeaderIcon
+            Icon={GitHubIcon}
+            href="https://github.com/Hardik-Dharmik
+          "
+          />
+          <HeaderIcon
+            Icon={InstagramIcon}
+            href="https://www.instagram.com/hardik__dharmik/"
+          />
+        </div>
       </div>
 
       <div className="hidden sm:flex  justify-between p-2 items-center">
@@ -60,9 +74,19 @@ function Navbar() {
 
         {/* Right  */}
         <div className="flex space-x-7">
-          <HeaderIcon Icon={LinkedInIcon} />
-          <HeaderIcon Icon={GitHubIcon} />
-          <HeaderIcon Icon={InstagramIcon} />
+          <HeaderIcon
+            Icon={LinkedInIcon}
+            href="https://www.linkedin.com/in/hardik-dharmik-034796215/"
+          />
+          <HeaderIcon
+            Icon={GitHubIcon}
+            href="https://github.com/Hardik-Dharmik
+          "
+          />
+          <HeaderIcon
+            Icon={InstagramIcon}
+            href="https://www.instagram.com/hardik__dharmik/"
+          />
         </div>
       </div>
     </div>
