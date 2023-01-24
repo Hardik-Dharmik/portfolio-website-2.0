@@ -58,7 +58,7 @@ function Navbar() {
           <a href="" className="hover:text-teal">
             Home
           </a>
-          <a href="" className="hover:text-teal">
+          <a href="#about" className="hover:text-teal">
             About
           </a>
           <a href="" className="hover:text-teal">
@@ -66,6 +66,9 @@ function Navbar() {
           </a>
           <a href="" className="hover:text-teal">
             Projects
+          </a>
+          <a href="" className="hover:text-teal">
+            Technologies
           </a>
           <a href="" className="hover:text-teal">
             Experience

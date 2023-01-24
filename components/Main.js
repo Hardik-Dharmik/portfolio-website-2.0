@@ -1,6 +1,6 @@
 function Main() {
   return (
-    <div className="container mx-auto flex flex-col items-center sm:items-start min-h-screen pt-5">
+    <div className="container px-4 sm:p-2 mx-auto flex flex-col items-center sm:items-start sm:min-h-screen  pt-5">
       <p className="text-teal font-mono my-5">Hello, My name is</p>
       <h1 className="text-7xl text-center font-semibold text-gray-200 my-5">
         Hardik Dharmik
@@ -23,6 +23,11 @@ function Main() {
       >
         RESUME
       </a>
+
+      <hr
+        className="text-gray-600
+        w-full mx-auto mt-3 h-0 my-auto"
+      />
     </div>
   );
 }
