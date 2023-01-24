@@ -16,7 +16,7 @@ function Navbar() {
   console.log(isOpen);
 
   return (
-    <div className="container mx-auto bg-bgDark text-lightslate text-sm">
+    <div className="container mx-auto bg-bgDark text-lightslate text-sm font-mono font-light">
       {/* Mobile Menu  */}
       <div className="inline-block sm:hidden p-2 cursor-pointer hover:bg-gray-300 rounded-full">
         {isOpen ? (
