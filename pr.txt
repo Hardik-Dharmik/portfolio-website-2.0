@@ -1,7 +1,0 @@
-qa
-cryptodash
-portfolio
-google-clone
-blogsite
-google-docs-clone
-movies app
