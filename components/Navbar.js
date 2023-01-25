@@ -33,7 +33,7 @@ function Navbar() {
         <a href="">About</a>
         <a href="">Education</a>
         <a href="">Projects</a>
-        <a href="">Experience</a>
+        <a href="">Technologies</a>
 
         <div className="flex space-x-7">
           <HeaderIcon
@@ -61,7 +61,7 @@ function Navbar() {
           <a href="#about" className="hover:text-teal">
             About
           </a>
-          <a href="" className="hover:text-teal">
+          <a href="#education" className="hover:text-teal">
             Education
           </a>
           <a href="" className="hover:text-teal">
@@ -69,9 +69,6 @@ function Navbar() {
           </a>
           <a href="" className="hover:text-teal">
             Technologies
-          </a>
-          <a href="" className="hover:text-teal">
-            Experience
           </a>
         </div>
 

@@ -1,9 +1,10 @@
 import Image from "next/image";
+import SectionHeading from "./SectionHeading";
 
 function About() {
   return (
     <div className="container px-4 sm:p-2 mx-auto min-h-screen" id="about">
-      <h1 className="text-4xl text-white font-mono my-4">About</h1>
+      <SectionHeading heading="About" />
       <div className="flex flex-col sm:flex-row justify-between">
         {/* About  */}
         <div className="sm:w-3/5 mx-auto sm:ml-0">
@@ -36,6 +37,10 @@ function About() {
           <img src="/hd.png" className="mt-5 h-4/5 w-3/5 mx-auto rounded-md" />
         </div>
       </div>
+      <hr
+        className="text-gray-600
+        w-full mx-auto mt-20 h-0 my-auto"
+      />
     </div>
   );
 }
