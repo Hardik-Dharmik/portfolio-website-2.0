@@ -10,7 +10,7 @@ function EducationItem({
   isCollege,
 }) {
   return (
-    <div className="border border-teal rounded-lg my-5 px-3 py-2 sm:w-2/5 mx-5 hover:shadow-md hover:shadow-emerald-700 cursor-pointer">
+    <div className="border border-white  rounded-lg my-5 px-5 py-2 sm:w-2/5 mx-5 hover:shadow-md hover:shadow-emerald-700 cursor-pointer">
       <h1 className="text-2xl text-emerald-500 text-semibold">{year}</h1>
 
       <p className="font-mono text-gray-400">

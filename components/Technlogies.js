@@ -2,6 +2,7 @@ import SectionHeading from "./SectionHeading";
 import {
   SiCplusplus,
   SiBootstrap,
+  SiTailwindcss,
   SiCss3,
   SiGithub,
   SiNetlify,
@@ -21,7 +22,6 @@ import {
   DiJava,
   DiJavascript,
   DiMongodb,
-  DiMysql,
   DiNodejs,
   DiNpm,
 } from "react-icons/di";
@@ -54,6 +54,7 @@ function Technlogies() {
         <Technology Icon={SiPostman} name="Postman" />
         <Technology Icon={SiPython} name="Python" />
         <Technology Icon={SiReact} name="ReactJS" />
+        <Technology Icon={SiTailwindcss} name="TailwindCSS" />
         <Technology Icon={SiVisualstudiocode} name="VSCode" />
       </div>
 

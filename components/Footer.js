@@ -16,8 +16,8 @@ function Footer() {
 
         <p className="text-sm text-gray-200 font-mono space-x-1">
           <EmailIcon />
-          <a href="mailto:hardikdharmik94@gmail.com.com">
-            hardikdharmik94@gmail
+          <a href="mailto:hardikdharmik94@gmail.com">
+            hardikdharmik94@gmail.com
           </a>
         </p>
         <div className="flex space-x-5">

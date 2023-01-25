@@ -11,7 +11,7 @@ function ProjectItem({
   techStacks,
 }) {
   return (
-    <div className="border border-emerald-300 hover:shadow-md hover:shadow-emerald-700 shadow-lg px-5 py-2 w-5/6 cursor-pointer rounded-lg hover:-translate-y-3 transition duration-500 ease-in-out flex flex-col">
+    <div className="border border-emerald-300 hover:shadow-md hover:shadow-emerald-700 shadow-lg px-5 py-2 w-5/6  rounded-lg hover:-translate-y-3 transition duration-500 ease-in-out flex flex-col">
       <div className="flex justify-between my-3">
         <PhonelinkIcon fontSize="medium" className="text-emerald-400 " />
 
