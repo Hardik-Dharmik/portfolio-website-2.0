@@ -29,6 +29,10 @@ function Projects() {
           )
         )}
       </div>
+      <hr
+        className="text-gray-600
+        w-full mx-auto mt-20 h-0 my-auto"
+      />
     </div>
   );
 }

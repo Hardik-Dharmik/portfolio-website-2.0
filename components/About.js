@@ -1,5 +1,5 @@
-import Image from "next/image";
 import SectionHeading from "./SectionHeading";
+import { SiLeetcode, SiCodechef } from "react-icons/si";
 
 function About() {
   return (
@@ -23,18 +23,50 @@ function About() {
             {" "}
             I am a curious and fast learner and always ready to gain knowledge.
             Apart from computer science, I am very much interested in History
-            especially Indian History, Geopolitics.
+            especially Indian History and Geopolitics.
           </p>
 
           <br />
           <p className="text-gray-400">
             I have worked on many Web development projects. I have also worked
-            on NLP projects in my college.
+            on NLP projects in my college. Also I am a{" "}
+            <span className="text-teal font-semibold">
+              5 star coder at CodeChef
+            </span>
+            and has solved around{" "}
+            <span className="text-teal font-semibold">
+              700+ coding problems
+            </span>{" "}
+            across platforms.
           </p>
+
+          <div className="flex justify-evenly mt-6">
+            <div className="flex flex-col items-center justify-center space-y-1 text-gray-300 hover:text-teal cursor-pointer">
+              <a
+                href="https://leetcode.com/hardikdharmik9401/"
+                target="_blank"
+                className="flex flex-col items-center justify-cente space-y-1"
+              >
+                <SiLeetcode className="" size="2.5rem" />
+                <p className=" ">LeetCode</p>
+              </a>
+            </div>
+
+            <div className="flex flex-col items-center space-y-1 text-gray-300 hover:text-teal cursor-pointer">
+              <a
+                href="https://www.codechef.com/users/hd94"
+                target="_blank"
+                className="flex flex-col items-center justify-cente space-y-1"
+              >
+                <SiCodechef className="" size="2.5rem" />
+                <p className=" ">CodeChef</p>
+              </a>
+            </div>
+          </div>
         </div>
         {/* Image */}
         <div className="mx-auto">
-          <img src="/hd.png" className="mt-5 h-4/5 w-3/5 mx-auto rounded-md" />
+          <img src="/hd.png" className="mt-5 h-3/5 w-3/5 mx-auto rounded-md" />
         </div>
       </div>
       <hr

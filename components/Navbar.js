@@ -2,6 +2,7 @@ import { useState } from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import EmailIcon from "@mui/icons-material/Email";
 import HeaderIcon from "./HeaderIcon";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -29,11 +30,11 @@ function Navbar() {
           isOpen ? "flex" : "hidden"
         } flex-col items-center space-y-2 `}
       >
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Education</a>
-        <a href="">Projects</a>
-        <a href="">Technologies</a>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#technologies">Technologies</a>
 
         <div className="flex space-x-7">
           <HeaderIcon
@@ -49,13 +50,17 @@ function Navbar() {
             Icon={InstagramIcon}
             href="https://www.instagram.com/hardik__dharmik/"
           />
+          <HeaderIcon
+            Icon={EmailIcon}
+            href="mailto:hardikdharmik94@gmail.com"
+          />
         </div>
       </div>
 
-      <div className="hidden sm:flex  justify-between p-2 items-center">
+      <div className="hidden sm:flex  justify-between p-2 items-center ">
         {/* Left  */}
         <div className="flex space-x-7">
-          <a href="" className="hover:text-teal">
+          <a href="" className="hover:text-teal  ">
             Home
           </a>
           <a href="#about" className="hover:text-teal">
@@ -64,10 +69,10 @@ function Navbar() {
           <a href="#education" className="hover:text-teal">
             Education
           </a>
-          <a href="" className="hover:text-teal">
+          <a href="#projects" className="hover:text-teal">
             Projects
           </a>
-          <a href="" className="hover:text-teal">
+          <a href="#technologies" className="hover:text-teal">
             Technologies
           </a>
         </div>
@@ -86,6 +91,10 @@ function Navbar() {
           <HeaderIcon
             Icon={InstagramIcon}
             href="https://www.instagram.com/hardik__dharmik/"
+          />
+          <HeaderIcon
+            Icon={EmailIcon}
+            href="mailto:hardikdharmik94@gmail.com"
           />
         </div>
       </div>
