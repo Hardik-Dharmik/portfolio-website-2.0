@@ -7,7 +7,7 @@ import HeaderIcon from "./HeaderIcon";
 function Footer() {
   return (
     <div className="container mx-auto px-4 sm:p-2 text-lightslate">
-      <div className="flex flex-col sm:flex-row justify-between">
+      <div className="flex flex-col sm:flex-row justify-between items-center space-y-2">
         <div>
           <p className="text-sm text-gray-200 font-mono">
             Created by Hardik Sunil Dharmik
